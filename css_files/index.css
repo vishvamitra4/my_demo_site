@@ -1,0 +1,252 @@
+body
+{
+  margin: 0;
+  background-color: #b2dddd;
+}
+
+.menu-bar
+{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  padding : 15px;
+  justify-content: space-around;
+  align-content: center;
+  flex-wrap: nowrap;
+  background-color: #9efff5;
+  position: fixed;
+}
+.menu-bar >div a
+{
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+  color: #167b61;
+}
+.menu-bar >div a:hover
+{
+  color: #38d0a9;
+  transition: 0.3s;
+}
+
+.head
+{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  align-items: center;
+  align-content: space-around;
+  width: 100%;
+  flex-wrap: wrap;
+  background-color: #c1f2f2;
+
+
+}
+
+.head > div
+{
+  margin-top: 10px;
+  width: 100%;
+}
+
+.head .c1
+{
+
+  margin-top: 60px;
+  text-align: left;
+
+  max-width: 100%;
+  height: auto;
+  padding-left: 15px;
+}
+
+.c1 .cloud1
+{
+  padding-left: 6vw;
+}
+
+.menuphoto
+{
+  width: 50px;
+  display: inline-block;
+  border-radius: 100%;
+}
+.head .c2
+{
+
+  text-align: right;
+  padding-right: 10vw;
+  max-width: 100%;
+  height: auto;
+
+}
+.head .mountain
+{
+
+  max-width: 100%;
+  height: auto;
+  text-align: center;
+}
+
+.head .text
+{
+
+  text-align: center;
+
+}
+
+h1
+{
+  font-family: 'Sacramento', cursive;
+  font-weight :900;
+  font-size: 7vw;
+  color: #129797;
+
+}
+h2 , h3
+{
+  font-family: 'Roboto', sans-serif;
+  font-weight: lighter;
+
+  color: #0bb1b1;
+}
+
+p{
+  color: #40514E;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+.about
+{
+  width: 45%;
+  margin : 20px auto;
+  text-align: center;
+
+}
+.about img
+{
+  width: 160px;
+  border-radius: 100%;
+}
+
+
+.skill-1
+{
+  display: flex;
+  width : 70%;
+  margin : 0 auto;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  text-align: center;
+
+}
+
+.skill-2
+{
+  display: flex;
+  width : 70%;
+  margin : 50px auto;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  text-align: center;
+
+
+}
+
+.skill_photo
+{
+  width: 25%;
+}
+.skill_photo img
+{
+  width: 100%;
+  border-radius: 100%;
+}
+.skill_content
+{
+  width: 70%;
+}
+
+
+.contact-me
+{
+  width: 50%;
+  margin : 10px auto;
+  text-align: center;
+}
+
+.contact-me button
+{
+  padding : 10px;
+  background-color : #66BFBF;
+  border-radius: 4px;
+  border : 1px solid #66BFBF;
+  color: white;
+}
+
+
+.footer
+{
+  
+  padding : 20px;
+  margin-top: 40px;
+  background-color: #66BFBF;
+}
+
+.footer ul
+{
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+}
+
+.footer ul li
+{
+  display: inline-block;
+  padding : 10px;
+}
+
+
+
+@media screen and (max-width : 600px)
+{
+  .head .mountain img
+  {
+    width: 100%;
+  }
+
+  .about
+  {
+    width: 90%;
+    margin : 40px auto;
+  }
+  .about img
+  {
+    width: 160px;
+    border-radius: 100%;
+  }
+
+  .skill-1
+  {
+    width : 90%;
+  }
+
+  .skill-2
+  {
+    width : 90%;
+  }
+
+  .contact-me
+  {
+    width: 90%;
+  }
+
+  h1
+  {
+    font-size: 9vw;
+  }
+
+}
